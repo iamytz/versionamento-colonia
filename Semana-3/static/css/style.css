@@ -1,0 +1,40 @@
+:root {
+    --color1: rgb(255, 0, 0);
+    --color2: rgb(0, 255, 0);
+}
+
+body {
+    background-color: var(--color1);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.versionamento {
+    background-color: wheat;
+
+}
+
+.banner-container {
+    background-color: rgb(223, 223, 235);
+    height: 100px;
+}
+
+.button {
+    background-color: var(--color2);
+    display: flex;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-overflow: none;
+    text-decoration: none;
+    border-radius: 15px;
+    
+
+
+}
